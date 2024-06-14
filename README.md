@@ -23,14 +23,18 @@ Alas and woe, I can not offer any support for this software. It is the output of
 
 I continue to seek funding for progressing ILNP in various ways. So my intention is to improve and update this sofwtare, but I cannot give any definite timescales and roadmaps at present.
 
-## Code
+## Binary
 
-There are two parts to the software:
+A binary of the kernel and modified libc, calong wiht instructions on hot to use them with a fresh install of FreebSD14 can be found [here](xk).
 
-1. A modifictaion to `libc` so that names for nodes in `/etc/hosts` can be mapped to ILNP Identifier-Locator Vector (I-LV) values, and passed up to applications in `struct addrinfo` via calls to `getaddrinfo(3)`.
-2. Extensions to the FreeBSD v14 kernel modified to implement the ILNP functionality.
+## Source code
 
-Both are needed. First, get the tar.gz files package linked above. xk intrucstions xk
+There are two parts to the source code:
+
+1. Modifications to `libc` so that names for nodes in `/etc/hosts` can be mapped to ILNP Identifier-Locator Vector (I-LV) values, and passed up to applications in `struct addrinfo` via calls to `getaddrinfo(3)`.
+2. Modifications and to the FreeBSD v14 kernel to implement the ILNP functionality.
+
+Both are needed. First, get the tar.gz files package linked above. xk instructions xk
 
 Source github repository: [https://github.com/ilnp/ilnp-glibc-1](https://github.com/ilnp/ilnp-freebsd14).
 
