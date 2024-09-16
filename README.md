@@ -19,9 +19,9 @@ This is the codebase that was also used for the experiments and demonstrations a
 
 ## This is not supported software
 
-Alas and woe, I can not offer any support for this software. It is the output of ongoing work in PhD projects that I have supervised. Please be aware that you use this software at your own risk.
+Alas and woe, I cannot offer any support for this software. It is the output of ongoing work in various reserach projects (including PhD work) that I have supervised. Please be aware that you use this software at your own risk.
 
-I continue to seek funding for progressing ILNP in various ways. So my intention is to improve and update this sofwtare, but I cannot give any definite timescales and roadmaps at present.
+I continue to seek funding for progressing ILNP in various ways. So my intention is to improve and update this software, but I cannot give any definite timescales and roadmaps at present.
 
 ## Binary
 
@@ -36,7 +36,7 @@ There are two parts to the source code:
 
 Both are needed. First, get the tar.gz files package linked above. xk instructions xk
 
-Source github repository: [https://github.com/ilnp/ilnp-glibc-1](https://github.com/ilnp/ilnp-freebsd14).
+Source github repository: [https://github.com/ilnp/ilnp-freebsd14](https://github.com/ilnp/ilnp-freebsd14).
 
 ## Thank you
 
