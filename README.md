@@ -23,20 +23,15 @@ Alas and woe, I cannot offer any support for this software. It is the output of 
 
 I continue to seek funding for progressing ILNP in various ways. So my intention is to improve and update this software, but I cannot give any definite timescales and roadmaps at present.
 
-## Binary
-
-A binary of the kernel and modified libc, calong wiht instructions on how to use them with a fresh install of FreebSD14 can be found [here](xk).
-
 ## Source code
 
-There are two parts to the source code:
+The provided source files add ILNP support to FreeBSD-14. This requires modifications to both the kernel and libc, so you must recompile both the kernel and the world. ILNP support is conditionally compiled, so the ILNP6 option must be added to the kernel config, and TCP_OFFLOAD must be removed an example kernel config is given in `sys/amd64/conf/ILNP6`. `/etc/src.conf` on the build machine should also contain the following:
 
-1. Modifications to `libc` so that names for nodes in `/etc/hosts` can be mapped to ILNP Identifier-Locator Vector (I-LV) values, and passed up to applications in `struct addrinfo` via calls to `getaddrinfo(3)`.
-2. Modifications and to the FreeBSD v14 kernel to implement the ILNP functionality.
-
-Both are needed. First, get the tar.gz files package linked above. xk instructions xk
-
-Source github repository: [https://github.com/ilnp/ilnp-freebsd14](https://github.com/ilnp/ilnp-freebsd14).
+```
+WITHOUT_NS_CACHING=yes
+WITH_ILNP6=yes
+WITH_ILNP6_SUPPORT=yes
+```
 
 ## Thank you
 
