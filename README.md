@@ -25,7 +25,7 @@ I continue to seek funding for progressing ILNP in various ways. So my intention
 
 ## Binary
 
-A binary of the kernel and modified libc, calong wiht instructions on hot to use them with a fresh install of FreebSD14 can be found [here](xk).
+A binary of the kernel and modified libc, calong wiht instructions on how to use them with a fresh install of FreebSD14 can be found [here](xk).
 
 ## Source code
 
