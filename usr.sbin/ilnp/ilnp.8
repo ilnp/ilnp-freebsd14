@@ -1,0 +1,65 @@
+.\"BSD 2-Clause License
+.\"
+.\"Copyright (c) 2019-2020  Internet Systems Consortium, Inc. ("ISC")
+.\"Copyright (c) 2020-2024 Gregor Haywood
+.\"
+.\"Redistribution and use in source and binary forms, with or without
+.\"modification, are permitted provided that the following conditions
+.\"are met:
+.\"1. Redistributions of source code must retain the above copyright
+.\"   notice, this list of conditions and the following disclaimer.
+.\"2. Redistributions in binary form must reproduce the above copyright
+.\"   notice, this list of conditions and the following disclaimer in the
+.\"   documentation and/or other materials provided with the distribution.
+.\"
+.\"THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+.\"ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+.\"IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+.\"ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+.\"FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+.\"DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+.\"OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+.\"HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+.\"LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+.\"OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+.\"SUCH DAMAGE.
+
+.Dd August 31, 2021
+.Dt ILNP 8
+.Os
+.\"
+.Sh NAME
+.Nm ilnp
+.Nd Manage local NIDs for the Identifier-Locator Network Protocol 
+.\"
+.Sh SYNOPSIS
+.Nm
+.Fl a
+.Nm
+.Fl s
+.Ar nid
+.Nm
+.Fl d
+.Ar nid
+.\"
+.Sh DESCRIPTION
+The
+.Nm
+utility manipulates the local NIDs in the ILNP Communication Cache (ILCC). NIDs are
+specified in ILNP syntax: XXXX+XXXX+XXXX+XXXX.
+.Bl -tag -width indent
+.It Fl a
+Dump the current ILCC entries. This also displays information
+about correspondent nodes.
+.It Fl s Ar nid
+Add the specified NID to the ILCC. Corresponding I-LVs will be added to interfaces
+dynamically.
+.It Fl d  Ar nid
+Remove the specified NID from the ILCC, and remove corresponding I-LVs from interfaces.
+.El
+.\"
+.Sh EXIT STATUS
+.Ex -std
+.\"
+.\" .Sh BUGS
+.\" (to be written)
