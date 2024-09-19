@@ -1,5 +1,3 @@
-# UNDER CONSTRUCTION
-
 # ILNP software prototype implementation in FreeBSD14
 ### ilnp-freebsd14
 ### 17 June 2024
