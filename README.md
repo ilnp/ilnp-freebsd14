@@ -2,7 +2,7 @@
 ### ilnp-freebsd14
 ### 17 June 2024
 
-## The first [ILNP](https://ilnp.cs.st-andrews.ac.uk/) software release for FreeBSD
+## The first [ILNP](https://ilnp.cs.st-andrews.ac.uk/) software release for FreeBSD.
 
 This repository contains experimental software implementing a prototype of the Identifier Locator Network Protocol (ILNP). The main web site for ILNP is at [https://ilnp.cs.st-andrews.ac.uk/](https://ilnp.cs.st-andrews.ac.uk/).
 
