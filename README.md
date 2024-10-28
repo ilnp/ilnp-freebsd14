@@ -23,7 +23,7 @@ I continue to seek funding for progressing ILNP in various ways. So my intention
 
 ## Source code
 
-The provided source files add ILNP support to FreeBSD-14. This requires modifications to both the kernel and libc, so you must recompile both the kernel and the world. ILNP support is conditionally compiled, so the ILNP6 option must be added to the kernel config, and TCP_OFFLOAD must be removed an example kernel config is given in `sys/amd64/conf/ILNP6`. `/etc/src.conf` on the build machine should also contain the following:
+The provided source files add ILNP support to FreeBSD-14. This requires modifications to both the kernel and libc, so you must recompile both the kernel and the world. ILNP support is conditionally compiled, so the ILNP6 option must be added to the kernel config, and TCP_OFFLOAD must be removed. An example kernel config is given in `sys/amd64/conf/ILNP6`. `/etc/src.conf` on the build machine should also contain the following:
 
 ```
 WITHOUT_NS_CACHING=yes
