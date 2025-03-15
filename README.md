@@ -13,7 +13,7 @@ The code here is an up-to-date version of the codebase used in the experiments d
 * G. T. Haywood, S. N. Bhatti, [Defence against side-channel attacks for encrypted network communication using multiple paths](https://doi.org/10.3390/cryptography8020022). Cryptography, vol. 8, no. 2, pages 1-26. May 2024.
 * S. N. Bhatti, G. Haywood, R. Yanagida  [End-to-End Privacy for Identity & Location with IP](https://doi.org/10.1109/ICNP52444.2021.9651909). NIPAA21 - 2nd Workshop on New Internetworking Protocols, Architecture and Algorithms (ICNP 2021 - 29th IEEE International Conference on Network Protocols). Virtual event (COVID-19). Nov 2021.
 
-This is the codebase that was also used for the experiments and demonstrations at the [IETF118/Prague Hackathon](https://blogs.cisco.com/developer/prague-ietf-hackathon), for which more information can be found [here](https://ilnp.cs.st-andrews.ac.uk/freebsd/20231105-ietf118_hackathon/).
+This is the codebase that was also used for the experiments and demonstrations at the [IETF118/Prague Hackathon](https://wiki.ietf.org/en/meeting/118/hackathon), for which more information can be found [here](https://ilnp.cs.st-andrews.ac.uk/freebsd/20231105-ietf118_hackathon/).
 
 ## This is not supported software
 
