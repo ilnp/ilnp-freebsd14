@@ -1,6 +1,6 @@
 # ILNP software prototype implementation in FreeBSD14
 ### ilnp-freebsd14
-### 17 June 2024 (updated 03 July 2025)
+### 17 June 2024 (README updated 03 July 2025)
 
 ## The first [ILNP](https://ilnp.cs.st-andrews.ac.uk/) software release for FreeBSD.
 
